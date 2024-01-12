@@ -1,4 +1,4 @@
-## Проект airflow_yandex_metrika_and_other для выгрузки неагрегированных данных с Yandex Metrika Logs API, используя Airflow и Docker
+## Проект airflow_yandex_metrika_and_other для выгрузки неагрегированных данных с Yandex Metrika Logs API с использованием Airflow и Docker
 ![Картинка для описания проекта](/airflow_image.png)
 
 Проект создан для выгрузки данных о количестве просмотров ([*hits*](https://yandex.ru/dev/metrika/doc/api2/logs/fields/hits.html)) с счётчиков Yandex Metrika во внешнее хранилище данных - БД ClickHouse. Настроена выгрузка для таких полей, как:
